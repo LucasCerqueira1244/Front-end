@@ -4,6 +4,10 @@ body {
     font-family: sans-serif Bold;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     width: 100%;
     position: fixed;

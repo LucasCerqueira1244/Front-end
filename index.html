@@ -89,6 +89,48 @@
 		Sequi possimus necessitatibus, ipsa aspernatur ducimus adipisci fuga sint eos voluptatem enim nemo debitis similique amet, soluta accusantium fugiat minima odio dignissimos inventore mollitia recusandae nulla perspiciatis explicabo? Esse, facilis!
 		Facilis assumenda autem culpa nesciunt, explicabo aspernatur dolore sint doloribus. Minus quasi ullam molestiae, delectus possimus excepturi tenetur similique, beatae qui maiores, deserunt sapiente exercitationem fugit sequi cumque iure? Dolor?</h1>
 	</div>
+
+	<!--Formulário dos Contatos-->
+	<div class="contato" id="contato">
+		<form action="mailto:kaua1000fla@gmail.com" name="formulario" method="post" id="formulario">
+
+
+			<div class="formulario">
+				<h1>Formulário de Contato</h1><br><br>
+				<label>
+					<span>Nome Completo:</span>
+					<input type="text" class="nome_txt" name="nome" id="name" placeholder="Kauã Arruda" />
+				</label><br><br>
+
+
+				<label>
+					<span>Email:</span>
+					<input type="text" class="email_txt" name="email" id="email" placeholder="fulano@mail.com" />
+				</label><br><br>
+
+
+				<section>
+					<label for="uf">UF</label>
+					<select id="uf">
+						<option></option>
+					</select>
+					<label for="cidade">Cidade</label>
+					<select id="cidade">
+						<option></option>
+					</select>		  
+				</section>
+
+				<label>
+					<span>Comentários:</span><br>
+					<textarea class="comentario_txt" name="comentario" id="comentario"
+						placeholder="Deixe sua opnião"></textarea>
+					<br>
+					<input type="submit" class="botão_enviar" value="Enviar" id="enviar" />
+					<input type="reset" class="botão_reset" onclick="Enviar();" value="Limpar" id="reset">
+				</label><br>
+			</div>
+		</form>
+
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

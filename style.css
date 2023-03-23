@@ -146,6 +146,62 @@ li.slick-active button {
     padding-left: 10px;
 }
 
+
+/* SOBRE */
+
+.sec-sobre {
+    width: 100%;
+    margin-top: 100px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+}
+
+.main-sobre {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: 1.4rem;
+    position: relative;
+    right: 4%;
+}
+
+
+.main-sobre h1 {
+    font-size: 2.8rem;
+    font-weight: 100;
+}
+
+.foto-sobre {
+    padding-right: 20px;
+}
+
+#img-sobre {
+    width: 70%;
+    box-shadow: 0px 10px 80px rgb(38, 44, 138);
+}
+
+#botao-sobre {
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    color: white;
+    font-family: 400;
+    background-color: rgb(38, 44, 138);
+    cursor: pointer;
+    transition: 0.6s all;
+}
+
+#botao-sobre:hover {
+    transform: scale(1.1);
+    background-color: rgb(55, 62, 158);
+}
+
+/*formulario*/
+
 .contato {
     padding-top: 10%;
 }
@@ -158,7 +214,7 @@ h1, h2 {
 
 .formulario {
     background: white;
-    margin: 25px;
+    margin: 20px;
     padding: 0.5cm;
     border-radius: 6px;
     box-shadow: 2px 2px 2px 2px rgb(0, 2, 65);
@@ -204,4 +260,16 @@ section label{
 .formulario ::placeholder{
     font-size: 20px;
     padding-left: 5px;
+}
+
+.formulario input.botao_enviar, .formulario input.botao_reset {
+    width: 100px;
+    font-size: 20px;
+    border: 0;
+    box-shadow: 1px 1px 1px rgb(73, 73, 73);
+    border-radius: 6px;
+    color: black;
+    font-family: 400;
+    cursor: pointer;
+    transition: 0.6s all;
 }

@@ -146,32 +146,62 @@ li.slick-active button {
     padding-left: 10px;
 }
 
-/*Configurações do formulário de contatos*/
-.formulario{
-    margin: 0;
-    width: 100%;
-    background-color: black;
-    padding: 20px;
-    filter: drop-shadow(4px 12px 18px #000);
-    color: aliceblue;
+.contato {
+    padding-top: 10%;
 }
 
-/*Configurações da letra do texto formulário de contatos*/
-.formulario h1{
+h1, h2 {
     text-align: center;
-    color: rgb(42, 116, 165);
-}
-
-#name{
-    width: 319px;
-}
-
-#email{
-    width: 394px;
+    font-size: 30px;
 }
 
 
-#comentario{
-    width: 442px;
-    height: 100px;
+.formulario {
+    background: white;
+    margin: 25px;
+    padding: 0.5cm;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 2, 65);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.formulario span{
+    padding-right: 1%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.formulario input #name{
+    width: 500px;
+}
+
+.formulario input, .formulario select{
+    margin-top: 0.2cm;
+    width: 10cm;
+    height: 0.8cm;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px rgb(73, 73, 73);
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0.1cm;
+}
+
+.formulario textarea{
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0.1cm;
+    width: 64%;
+    height: 4cm;
+}
+
+section label{
+    font-size: 30px;
+    padding-right: 1%;
+}
+
+.formulario ::placeholder{
+    font-size: 20px;
+    padding-left: 5px;
 }

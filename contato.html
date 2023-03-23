@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<header>
+    <img src="image/logo.png" alt="Logo da Empresa">
+    <div class="logo"><a href="#">Cerqueira's <span>Solar</span></a></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Benefícios</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="contato" id="contato">
+        <form action="https://formsubmit.co/carneirolucascerqueira@outlook.com" name="formulario" method="post" id="formulario">
+            <div class="formulario">
+                <h1>Contato</h1><br>
+                <h2>Para entrarmos em contato, por favor preencha o formulário abaixo para obtermos as informações necessárias.</h2><br>
+                <label>
+                    <span>Nome Completo:</span>
+                    <input type="text" class="nome_txt" name="nome" id="name" placeholder="Digite seu nome" />
+                </label><br><br>
+                <label>
+                    <span>Email:</span>
+                    <input type="text" class="email_txt" name="email" id="email" placeholder="fulano@mail.com" />
+                </label><br><br>
+                <section>
+                    <label for="uf">Estado:</label>
+                    <select id="uf">
+                        <option></option>
+                    </select><br>
+                    <label for="cidade">Cidade:</label>
+                    <select id="cidade">
+                        <option></option>
+                    </select>		  
+                </section>
+                <label><br>
+                    <span>Comentários:</span><br><br>
+                    <textarea class="comentario_txt" name="comentario" id="comentario"
+                        placeholder="Deixe seu comentário"></textarea>
+                    <br>
+                    <input type="submit" class="botão_enviar" onclick="Enviar();" value="Enviar" id="enviar" />
+                    <input type="reset" class="botão_reset" value="Limpar" id="reset">
+                </label><br>
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+            </div>      
+        </form>
+    </div>    
+    <script type="text/javascript" src="js/contato.js"></script>
+</body>
+</html>

@@ -22,7 +22,7 @@ header {
 }
 
 header.sticky{
-    background: rgb(33, 33, 116);
+    background: linear-gradient(0deg, white 30%, rgb(55, 55, 105));
 }
 
 header.sticky .logo a span {
@@ -31,7 +31,7 @@ header.sticky .logo a span {
 }
 
 header.sticky .logo a {
-    color: green;
+    color: blue;
 }
 
 nav ul {
@@ -63,7 +63,7 @@ header.sticky nav a{
 }
 
 header.sticky nav a:hover{
-    color: green;
+    color: black;
 }
 
 header img {
@@ -207,7 +207,7 @@ li.slick-active button {
 /*formulario*/
 
 .contato {
-    padding-top: 10%;
+    padding-top: 7%;
 }
 
 h1, h2 {
@@ -217,7 +217,7 @@ h1, h2 {
 
 
 .formulario {
-    background: white;
+    background: linear-gradient(0deg, white 30%, rgb(55, 55, 105));
     margin: 20px;
     padding: 0.5cm;
     border-radius: 6px;
@@ -276,4 +276,135 @@ section label{
     font-family: 400;
     cursor: pointer;
     transition: 0.6s all;
+}
+
+/* BENEFÍCIOS */
+
+/* BENEFÍCIOS 1 */
+
+#tittle-beneficio {
+    margin-top: 5%;
+    margin-bottom: -3%;
+    text-align: center;
+    color: rgb(8, 8, 109);
+    font-weight: 540;
+}
+
+.main-beneficio {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    /* background-color: rgb(209, 209, 209); */
+    background-image: linear-gradient(180deg, white 30%, rgb(55, 55, 105));
+}
+
+/* ECO */
+.sec-beneficio-1 {
+    margin-top: 40px;
+    width: 50%;
+    height: 500px;
+}
+
+.eco-beneficio {
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 250px;
+    padding-right: 5%;
+
+}
+
+#icone-eco {
+    margin-right: 20px;
+}
+
+#h1-eco {
+    position: relative;
+    left: 3.4%;
+    color: rgb(27, 32, 110);
+}
+
+#p-eco {
+    position: relative;
+    left: 3.4%;
+}
+
+
+
+/* AGIL */
+
+.agil-beneficio {
+    font-size: 1.12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    height: 250px;
+}
+
+#icone-agil {
+    margin-right: 20px;
+    position: relative;
+    right: 1.6%;
+}
+
+#h1-agil {
+    color: rgb(27, 32, 110);
+}
+
+/* BENEFÍCIOS 2 */
+
+.sec-beneficio-2 {
+    margin-top: 40px;
+    width: 50%;
+    height: 500px;
+}
+
+
+/* HOUSE */
+
+.house-beneficio {
+    font-size: 1.12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 250px;
+    padding-left: 1%;
+}
+
+
+#icone-house {
+    margin-right: 20px;
+    position: relative;
+    right: 1.6%;
+}
+
+#h1-house {
+    color: rgb(27, 32, 110);
+}
+
+/* SOCKET */
+
+.socket-beneficio {
+    font-size: 1.12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 250px;
+
+}
+
+#icone-socket {
+    margin-right: 20px;
+    position: relative;
+    right: 1.6%;
+}
+
+#h1-socket {
+    color: rgb(27, 32, 110);
 }

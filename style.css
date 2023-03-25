@@ -31,7 +31,7 @@ header.sticky .logo a span {
 }
 
 header.sticky .logo a {
-    color: blue;
+    color: rgb(27, 32, 110);
 }
 
 nav ul {
@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    color: blue;
+    color: rgb(27, 32, 110);
 }
 
 header.sticky nav a{
@@ -82,7 +82,7 @@ header .logo a {
 }
 
 header .logo a span {
-    color: blue;
+    color: rgb(27, 32, 110);
     transition: all 0.3s ease;
 }
 
@@ -142,7 +142,7 @@ button.slick-next {
 }
 
 li.slick-active button {
-    background-color: blue;
+    background-color: rgb(27, 32, 110);
 }
 
 .slick-dots li {
@@ -207,8 +207,9 @@ li.slick-active button {
 /*formulario*/
 
 .contato {
-    padding-top: 7%;
+    padding-top: 6.2%;
 }
+
 
 h1, h2 {
     text-align: center;
@@ -218,7 +219,7 @@ h1, h2 {
 
 .formulario {
     background: linear-gradient(0deg, white 30%, rgb(55, 55, 105));
-    margin: 20px;
+    margin: 0px;
     padding: 0.5cm;
     border-radius: 6px;
     box-shadow: 2px 2px 2px 2px rgb(0, 2, 65);
@@ -407,4 +408,64 @@ section label{
 
 #h1-socket {
     color: rgb(27, 32, 110);
+}
+
+.container-text-center{
+    text-align: center;
+    padding: 24.5px;
+}
+
+#footer .twitter {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  #footer .linkedin {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -78px 0;
+  }
+  #footer .facebook {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -233px 0;
+  }
+  #footer .skype {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -156px 0;
+  }
+  #footer .flickr {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -310px 0;
+  }
+  #footer a {
+    height: 56px;
+    width: 56px;
+    display: inline-block;
+    margin: 10px;
+  }
+  #footer a:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+  }
+  #footer .twitter:hover {
+    background-position: 0 -56px;
+  }
+  #footer .facebook:hover {
+    background-position: -233px -56px;
+  }
+  #footer .skype:hover {
+    background-position: -156px -56px;
+  }
+  #footer .linkedin:hover {
+    background-position: -78px -56px;
+  }
+  #footer .flickr:hover {
+    background-position: -310px -56px;
+  }
+  .bg-dark-1{
+    background-color: rgb(55, 55, 105);
+    background-image: rgb(55, 55, 105);
 }

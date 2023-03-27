@@ -165,6 +165,7 @@ li.slick-active button {
 
 .main-sobre {
     background-color: rgb(255, 255, 255);
+    text-align: justify;
     width: 50%;
     font-size: 1.4rem;
     position: relative;
@@ -307,6 +308,7 @@ section label{
 }
 
 .eco-beneficio {
+    text-align: center;
     font-size: 1.1rem;
     display: flex;
     justify-content: center;
@@ -337,6 +339,7 @@ section label{
 /* AGIL */
 
 .agil-beneficio {
+    text-align: center;
     font-size: 1.12rem;
     display: flex;
     justify-content: center;
@@ -368,6 +371,7 @@ section label{
 /* HOUSE */
 
 .house-beneficio {
+    text-align: center;
     font-size: 1.12rem;
     display: flex;
     justify-content: center;
@@ -391,6 +395,7 @@ section label{
 /* SOCKET */
 
 .socket-beneficio {
+    text-align: center;
     font-size: 1.12rem;
     display: flex;
     justify-content: center;
